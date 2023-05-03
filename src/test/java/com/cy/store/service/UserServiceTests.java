@@ -19,16 +19,16 @@ public class UserServiceTests {
     @Test
     public void reg() {
         try {
-//            User user = new User();
-//            user.setUsername("搬搬");
-//            user.setPassword("123");
-//            userService.reg(user);
-//            System.out.println("OK");
+            User user = new User();
+            user.setUsername("搬搬");
+            user.setPassword("123");
+            userService.reg(user);
+            System.out.println("OK");
         } catch(ServiceException e) {
-//            // 获取类的对象 获取类的名称
-//            System.out.println(e.getClass().getSimpleName());
-//            // 获取异常的具体描述信息ß
-//            System.out.println(e.getMessage());
+            // 获取类的对象 获取类的名称
+            System.out.println(e.getClass().getSimpleName());
+            // 获取异常的具体描述信息ß
+            System.out.println(e.getMessage());
         }
     }
 }
